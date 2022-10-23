@@ -1,0 +1,32 @@
+
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "*.cu": "cpp",
+        ".env.development": "ini",
+        ".env.production": "ini",
+        "*.conf": "ini",
+        "module.h": "c",
+        "init.h": "c",
+        "*.tcc": "c",
+        "cache.h": "c",
+        "compiler.h": "c",
+        "compiler-gcc.h": "c",
+        "scull.h": "c",
+        "cdev.h": "c",
+        "types.h": "c",
+        "posix_types.h": "c",
+        "profile.h": "c"
+    },
+    "files.exclude": {
+        "**/.*.*.cmd": true,
+        "**/.*.d": true,
+        "**/.*.S": true
+    },
+    "[c]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false
+    },
+    //"C_Cpp.errorSquiggles": "Disabled"
+}
